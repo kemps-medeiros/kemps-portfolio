@@ -1,4 +1,4 @@
-*#My portfolio*
+# MY PORTFOLIO
 
 This is my website that I am developing to present my portfolio
 
