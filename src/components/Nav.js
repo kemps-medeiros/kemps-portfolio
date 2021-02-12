@@ -39,13 +39,8 @@ const Nav = () => {
                 </a>
               </li>
               <li>
-                <a href="#" onClick={() => setShowLinks(!showLinks)}>
+                <a href="#portfolio" onClick={() => setShowLinks(!showLinks)}>
                   Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#" onClick={() => setShowLinks(!showLinks)}>
-                  Blog
                 </a>
               </li>
               <li>

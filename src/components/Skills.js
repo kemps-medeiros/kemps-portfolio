@@ -1,5 +1,12 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaNodeJs,
+  FaReact,
+  FaComment,
+  FaBrain,
+} from 'react-icons/fa';
+import { DiMongodb } from 'react-icons/di';
 
 const Services = () => {
   const [header] = React.useState({
@@ -9,9 +16,39 @@ const Services = () => {
   const [state] = React.useState([
     {
       id: 1,
-      icon: 'FaGithub',
-      heading: 'Web Development',
-      text: 'Specialized in developing creative and functional websites',
+      icon: FaNodeJs,
+      heading: 'NodeJS',
+      text: 'Express, Mongoose, Pupetteer',
+    },
+    {
+      id: 2,
+      icon: FaReact,
+      heading: 'ReactJS',
+      text: 'React Hooks',
+    },
+    {
+      id: 3,
+      icon: FaGithub,
+      heading: 'Git and Github',
+      text: 'Basic commands of using git',
+    },
+    {
+      id: 4,
+      icon: DiMongodb,
+      heading: 'MongoDB',
+      text: 'MongoDB Atlas, MongoDB Compass',
+    },
+    {
+      id: 5,
+      icon: FaComment,
+      heading: 'Comunication',
+      text: 'Good oral and written communication',
+    },
+    {
+      id: 6,
+      icon: FaBrain,
+      heading: 'Proactive',
+      text: 'I like challenges and always want to learn more',
     },
   ]);
 
@@ -28,7 +65,7 @@ const Services = () => {
             {state.map((info) => (
               <div className="col-4">
                 <div className="services__box">
-                  <FaGithub className="commonIcons" />
+                  <info.icon className="commonIcons" />
                   <div className="services__box-header">{info.heading}</div>
                   <div className="services__box-p">{info.text}</div>
                 </div>

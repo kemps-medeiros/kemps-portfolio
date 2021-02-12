@@ -74,7 +74,7 @@ body {
   color: #fff;
   border-radius: 5px;
   padding: 5px 8px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
   text-align: center;
   justify-content: center;
@@ -106,7 +106,6 @@ body {
 }
 
 .col-4 {
-  display: flex;
   width: 33.33333333333333%;
 }
 
@@ -375,6 +374,69 @@ body {
 .info__contacts .col-6 a:hover {
   text-decoration: none;
   color: #77eaf9;
+}
+
+/* Portfolio */
+
+.portfolio {
+  width: 100%;
+  background: #000;
+  padding: 100px 0;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.portfolio__box {
+  padding: 40px;
+  background: #1f1f1f;
+  color: #fff;
+  margin: 20px;
+  transition: all 0.5s linear;
+  border: 2px solid #03a4ff;
+}
+
+.portfolio__box:hover {
+  background: #03a4ff;
+  color: #fff !important;
+}
+
+.portfolio__img {
+  width: 100%;
+}
+
+.portfolio__box img {
+  width: 100%;
+}
+
+.portfolio__box-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.portfolio__box-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.portfolio__box-link {
+  font-size: 14px;
+}
+
+.portfolio__box-link p {
+  color: #e98d4f;
+}
+
+.portfolio__box-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.portfolio__box-link a:visited {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Contact */
