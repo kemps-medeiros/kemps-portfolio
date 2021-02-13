@@ -24,7 +24,7 @@ const Services = () => {
       id: 2,
       icon: FaReact,
       heading: 'ReactJS',
-      text: 'React Hooks',
+      text: 'React Hooks, Bootstrap, CSS3',
     },
     {
       id: 3,

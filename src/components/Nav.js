@@ -14,10 +14,7 @@ const Nav = () => {
                 className="toglle"
                 onClick={() => setShowLinks(!showLinks)}
               />
-              <div className="kemps__logo">
-                KEMPS MEDEIROS
-                <div>{/* <FaDev className="kemps__icon" /> */}</div>
-              </div>
+              <div className="kemps__logo">KEMPS MEDEIROS</div>
             </div>
           </ul>
 

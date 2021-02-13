@@ -3,6 +3,8 @@ import instagram from '../img/portfolio/instagram-clone.png';
 import netflix from '../img/portfolio/netflix-clone.png';
 import textTransform from '../img/portfolio/react-text-transform.png';
 import crudMongoose from '../img/portfolio/crud-mongoose.png';
+import myPortfolio from '../img/portfolio/my-portfolio.png';
+import myGithub from '../img/portfolio/my-github.png';
 
 const Portfolio = () => {
   const [header] = React.useState({
@@ -41,15 +43,17 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      icon: '',
-      heading: 'Comunication',
-      text: 'Good oral and written communication',
+      src: myPortfolio,
+      heading: 'My Portfolio',
+      description: 'My portfolio created with ReactJS',
+      link: 'https://github.com/kemps-medeiros/crud-mongoose',
     },
     {
       id: 6,
-      icon: '',
-      heading: 'Proactive',
-      text: 'I like challenges and always want to learn more',
+      src: myGithub,
+      heading: 'See more projects...',
+      description: '... in my Github',
+      link: 'https://github.com/kemps-medeiros/',
     },
   ]);
 

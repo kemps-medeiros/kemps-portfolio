@@ -442,9 +442,14 @@ body {
 /* Contact */
 
 .contact {
-  background: #000;
+  background: #1f1f1f;
   padding: 100px 0;
 }
+
+.btnSubmit {
+  cursor: pointer;
+}
+
 .toglle {
   color: #fff;
   cursor: pointer;
@@ -502,7 +507,7 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background: #1f2235;
+    background: #000;
     position: fixed;
     top: 0;
     left: 0;
