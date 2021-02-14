@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/kemps-portfolio/static/css/main.63838c83.chunk.css",
+    "main.js": "/kemps-portfolio/static/js/main.ad986679.chunk.js",
+    "main.js.map": "/kemps-portfolio/static/js/main.ad986679.chunk.js.map",
+    "runtime-main.js": "/kemps-portfolio/static/js/runtime-main.5aaef0fc.js",
+    "runtime-main.js.map": "/kemps-portfolio/static/js/runtime-main.5aaef0fc.js.map",
+    "static/js/2.084ffef6.chunk.js": "/kemps-portfolio/static/js/2.084ffef6.chunk.js",
+    "static/js/2.084ffef6.chunk.js.map": "/kemps-portfolio/static/js/2.084ffef6.chunk.js.map",
+    "index.html": "/kemps-portfolio/index.html",
+    "static/css/main.63838c83.chunk.css.map": "/kemps-portfolio/static/css/main.63838c83.chunk.css.map",
+    "static/js/2.084ffef6.chunk.js.LICENSE.txt": "/kemps-portfolio/static/js/2.084ffef6.chunk.js.LICENSE.txt",
+    "static/media/crud-mongoose.c1aa84f2.png": "/kemps-portfolio/static/media/crud-mongoose.c1aa84f2.png",
+    "static/media/instagram-clone.fbd431d5.png": "/kemps-portfolio/static/media/instagram-clone.fbd431d5.png",
+    "static/media/kemps.517cbdd3.png": "/kemps-portfolio/static/media/kemps.517cbdd3.png",
+    "static/media/my-github.f3711ebf.png": "/kemps-portfolio/static/media/my-github.f3711ebf.png",
+    "static/media/my-portfolio.01b96388.png": "/kemps-portfolio/static/media/my-portfolio.01b96388.png",
+    "static/media/netflix-clone.2928378f.png": "/kemps-portfolio/static/media/netflix-clone.2928378f.png",
+    "static/media/react-text-transform.1ebd4647.png": "/kemps-portfolio/static/media/react-text-transform.1ebd4647.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5aaef0fc.js",
+    "static/js/2.084ffef6.chunk.js",
+    "static/css/main.63838c83.chunk.css",
+    "static/js/main.ad986679.chunk.js"
+  ]
+}
