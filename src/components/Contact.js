@@ -24,22 +24,23 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+    alert('Message sent successfully');
     e.target.reset();
   }
 
   return (
     <div className="contact" id="contact">
-      <div className="container">
+      <div className="container ">
         <div className="services__header">
           <div className="common">
             <h1 className="mainHeader">{header.subHeading}</h1>
             <div className="commonBorder"></div>
           </div>
         </div>
-        <div className="contact__form">
-          <form onSubmit={sendEmail}>
-            <div className="row pt-5 mx-auto">
-              <div className="col-8 form-group mx-auto">
+        <div className="row center">
+          <div className="contact__form-box">
+            <form onSubmit={sendEmail} className="contact__form__">
+              <div className="input__type1">
                 <input
                   type="text"
                   className="form-control"
@@ -47,7 +48,7 @@ const Contact = () => {
                   name="name"
                 />
               </div>
-              <div className="col-8 form-group pt-2 mx-auto">
+              <div className="input__type1">
                 <input
                   type="email"
                   className="form-control"
@@ -55,7 +56,7 @@ const Contact = () => {
                   name="email"
                 />
               </div>
-              <div className="col-8 form-group pt-2 mx-auto">
+              <div className="input__type1">
                 <input
                   type="text"
                   className="form-control"
@@ -63,10 +64,9 @@ const Contact = () => {
                   name="subject"
                 />
               </div>
-              <div className="col-8 form-group pt-2 mx-auto">
+              <div className="input__type2">
                 <textarea
                   className="form-control"
-                  id=""
                   cols="30"
                   rows="8"
                   placeholder="Your message"
@@ -80,8 +80,8 @@ const Contact = () => {
                   value="Send Message"
                 ></input>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </div>

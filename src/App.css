@@ -446,8 +446,64 @@ body {
   padding: 100px 0;
 }
 
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact__form__ {
+  width: 100%;
+  text-align: center;
+}
+
+.contact__form-box {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+}
+
+.input__type1 input {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 30px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.input__type2 input {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .btnSubmit {
   cursor: pointer;
+  background: #03a4ff;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+}
+
+.btnSubmit:hover {
+  background: #0669a3;
+}
+
+.form-control {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 15px;
+  color: #03a4ff;
+  background: #000;
+  font-size: 20px;
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  color: lightgray;
 }
 
 .toglle {
@@ -533,7 +589,11 @@ body {
   }
 
   .row .center {
-    display: block;
+    display: flex;
     width: 100%;
+  }
+
+  .form-control {
+    font-size: 15px;
   }
 }
